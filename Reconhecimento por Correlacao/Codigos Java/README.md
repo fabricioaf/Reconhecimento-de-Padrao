@@ -1,10 +1,13 @@
 ALGORITMOS RECONHECIMENTO
 
 SAIDA DO CODIGO
+57: Menor Valor : -1,00  index: 23x 7y 
+ Maior Valor : 0,02  index: 58x 57y
 
 Entradas tamanho( 100x x 100y)
 Entradas tamanho( 41x x 42y)
 0: -0,40 | -0,01 | 0,00 | -0,00 | -0,00 | 0,00 | -0,01 | 0,00 | 0,00 | 0,00 | -0,00 | 0,00 | -0,00 | 0,00 | 0,00 | 0,00 | -0,00 | -0,01 | -0,17 | 0,00 | 0,00 | -0,25 | 0,00 | -0,41 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 
+
 0: -0,00 | 0,00 | 0,00 | -0,00 | 0,00 | -0,45 | 0,00 | -0,00 | -0,58 | -0,01 | 0,00 | 0,00 | -0,00 | 0,00 | -0,01 | 0,00 | 0,00 | 0,00 | 0,00 | -0,20 | 0,00 | 0,00 | -0,34 | 0,00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 
 1: -0,00 | -0,00 | -0,01 | 0,00 | -0,01 | 0,00 | 0,00 | -0,00 | 0,00 | 0,00 | -0,02 | 0,00 | 0,00 | -0,00 | 0,00 | 0,00 | 0,00 | -0,02 | 0,00 | 0,00 | 0,00 | -0,53 | -0,18 | 0,00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 
 2: 0,00 | 0,00 | -0,00 | -0,00 | -0,00 | 0,00 | 0,00 | -0,00 | -0,01 | 0,00 | 0,00 | 0,00 | -0,01 | 0,00 | -0,00 | -0,00 | 0,00 | 0,00 | -0,50 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 
@@ -62,4 +65,4 @@ Entradas tamanho( 41x x 42y)
 54: NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 
 55: NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 
 56: NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,00 | 0,00 | 0,00 | 0,00 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,01 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 0,02 | 
-57: Maior Valor : 0,02  index: 58x 57y
+
