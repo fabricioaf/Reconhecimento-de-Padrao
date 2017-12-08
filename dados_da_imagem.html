@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dados da Imagem</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="titulo_principal">Reconhecimento de Imagens</h1>
+        <div class="content">
+            <form id="menu">
+                <input type="submit" value="Perfil" formaction="perfil.html">
+                <input type="submit" value="Minhas Imagens" formaction="minhas_imagens.html">
+                <input type="submit" value="Sair" formaction="index.html">
+            </form>      
+            <h2 id="subtitulo_principal">Dados da Imagem</h2>
+            <div id="sub_content">
+                <img src="img_padrao.jpg" title="Imagem Selecionada" ></br>
+                <div id="info_imagem">
+                    <p>Nome: </p>
+                    <p id="dado_nome">Minha Imagem 0</p>
+                    </br>                    
+                    <p>Tamanho: </p>
+                    <p id="dado_tamanho">400 x 400</p>
+                    </br>
+                    <p>Tipo: </p>
+                    <p id="dado_tipo"> .jpg</p>
+                    </br>
+                    </br>
+                    <p>Padrões Reconhecidos: </p>
+                    <lu>
+                        <li>Modelo Padrão 0</li>
+                        <li>Modelo Padrão 1</li>
+                        <li>Modelo Padrão 2</li>
+                        <li>Modelo Padrão 3</li>
+                        <li>Modelo Padrão 4</li>
+                    </lu>
+                    </br>
+                    <form method="get" action="reconhecimento.html">
+                        <input class="formInput" type="submit" value="Opções de Reconhecimento">
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
