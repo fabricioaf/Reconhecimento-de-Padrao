@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2017, 9:32:54 AM
+    Author     : sham
+*/
+
+.texto{
+    color: white;
+}
+
+body {
+    display: block;
+    background: linear-gradient(#4f2c2c,#A67629);
+    min-height: 100%;
+}
+
+.colorType1 {
+    border-radius: 15px 50px 30px 5px;
+    background: rgb(104,151,187);    
+}
+
+#titulo_principal {
+    text-align: center;
+    border: solid;
+    padding: 0%;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #FFAF7F;
+}
+
+#subtitulo_principal {
+    background-color: #FFAF7F;
+    text-align: center;
+    border: solid;
+    border-radius: 50px;
+}
+
+#menu {
+    background-color: #FFAF7F;
+    border: solid;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+
+#menu input {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.content {
+    align : center;
+    text-align: center;
+    width: 50%; 
+    margin: auto;
+}
+
+.formTextInput:focus {
+    color: black;
+    background-color:#FFFFCC;
+    border-color: #000000;
+    border-style: solid;    
+}
+
+.formInput {
+    display: block;
+    float:center;
+    margin: auto;
+    width:95%;
+    box-sizing: border-box;
+    
+}
+
+.submitButton {
+    height: 2em;
+    border:none;  
+    border-radius: 10px; /*2% / 20%; /* larg / altura */    
+}
+
+#info_imagem p{
+    display: inline;
+}
+
+#sub_content {
+    border: solid;
+    box-sizing: border-box; 
+    margin: auto;
+    align: center;
+    padding: 40px;
+    background-color: #FFAF7F;
+    border-radius: 15px 50px;
+}
+
+
+#div_reconhecimento p{
+    display: inline;
+}
+
+#lista_imagens lu{
+    margin: 8px;
+}
+
+#lista_imagens li {
+    border-radius: 15px 50px;
+    border: solid;
+    padding: 10px;
+}
+
+#lista_resultado li {
+    border-radius: 15px 50px;
+    border: solid;
+    padding: 10px;
+}
+
+#fotoPerfil {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}

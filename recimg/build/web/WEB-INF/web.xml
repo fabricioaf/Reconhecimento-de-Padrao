@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app metadata-complete="true" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <description>
+        Aplicação Reconhecimento de Imagem
+    </description>
+    <display-name>Aplicação Reconhecimento de Imagem</display-name>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>web.servlet.Login</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>Perfil</servlet-name>
+        <servlet-class>web.servlet.Perfil</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Autenticar</servlet-name>
+        <servlet-class>web.servlet.Autenticar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Autenticar</servlet-name>
+        <url-pattern>/Autenticar.action</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>Perfil</servlet-name>
+        <url-pattern>/Perfil</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MinhasImagens</servlet-name>
+        <servlet-class>web.servlet.MinhasImagens</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>MinhasImagens</servlet-name>
+        <url-pattern>/MinhasImagens</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AlterarPerfil</servlet-name>
+        <servlet-class>web.servlet.AlterarPerfil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlterarPerfil</servlet-name>
+        <url-pattern>/AlterarPerfil</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AtualizacaoPerfil</servlet-name>
+        <servlet-class>web.servlet.AtualizacaoPerfil</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AtualizacaoPerfil</servlet-name>
+        <url-pattern>/AtualizacaoPerfil</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Cadastro</servlet-name>
+        <servlet-class>web.servlet.Cadastro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cadastro</servlet-name>
+        <url-pattern>/Cadastro</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AutenticaCadastro</servlet-name>
+        <servlet-class>web.servlet.AutenticaCadastro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutenticaCadastro</servlet-name>
+        <url-pattern>/AutenticaCadastro</url-pattern>
+    </servlet-mapping> 
+       
+    <servlet>
+        <servlet-name>Reconhecimento</servlet-name>
+        <servlet-class>web.servlet.Reconhecimento</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Reconhecimento</servlet-name>
+        <url-pattern>/Reconhecimento</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Info</servlet-name>
+        <servlet-class>web.servlet.Info</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Info</servlet-name>
+        <url-pattern>/Info</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Resultado</servlet-name>
+        <servlet-class>web.servlet.Resultado</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Resultado</servlet-name>
+        <url-pattern>/Resultado</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Excluir</servlet-name>
+        <servlet-class>web.servlet.Excluir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Excluir</servlet-name>
+        <url-pattern>/Excluir</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
