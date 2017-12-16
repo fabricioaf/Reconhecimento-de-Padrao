@@ -28,7 +28,7 @@ public class Conexao {
     private Conexao() {
         try {
              Class.forName("org.mariadb.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/SistemaWeb", "usuario", "123");
+            connection = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/SistemaWeb", "usuario", "senha");
             System.out.println("Connectado UsuarioDAO!");
 
         } catch (Exception e) {
